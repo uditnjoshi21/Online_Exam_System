@@ -57,7 +57,6 @@
                     }
                 }
             }
-            // user reset page
             if ($_POST["login_name"] == "Reset password") {
                 header("LOCATION:2.reset_password.php");
                 return;
