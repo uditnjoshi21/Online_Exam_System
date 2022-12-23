@@ -1,4 +1,4 @@
-Final project for databases Course
+Final project for Databases Course
 
 It currently uses my (ujoshi)'s database, that call can be changed but it was on mine as of most recent modification
 
