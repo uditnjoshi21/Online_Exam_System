@@ -25,6 +25,7 @@
         // print_r($_SESSION);     
         // print_r($_POST); 
 
+        // Login function checking
         if (isset($_POST["login_name"])) {
             // user clicked the login button */
             if ($_POST["login_name"] == "login") {
@@ -34,7 +35,7 @@
                     $_SESSION["old_password"] = $_POST["password"];
                     header("LOCATION:2.reset_password.php");
                     return;
-                // if (1 == 0) {
+                    // if (1 == 0) {
                 } else {
                     //check the username and passwd, if correct, redirect to main.php page
                     // if ($_POST["username"]=="Mary" && $_POST["password"] =="Hello" && $_POST["radio"] =="instructor") {
