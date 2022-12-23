@@ -25,6 +25,7 @@ session_start();
         <form method=post action=2.reset_password.php>
             <p align="center"> <input type="submit" value="Update Password" name="update_passward"> </p>
         </form>
+        <!-- Logout function, directed to login page -->
         <form method=post action=1.login.php>
             <p align="center"> <input type="submit" value="Logout" name="logout_name"> </p>
         </form>
