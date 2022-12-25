@@ -22,6 +22,7 @@ session_start();
         <form method=post action=5.student_homepage.php>
             <p align="center"> <input type="submit" value="Profile" name="profile"> </p>
         </form>
+        <!-- Chnage the reset password method -->
         <form method=post action=2.reset_password.php>
             <p align="center"> <input type="submit" value="Update Password" name="update_passward"> </p>
         </form>
