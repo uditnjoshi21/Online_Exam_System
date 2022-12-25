@@ -19,8 +19,6 @@ session_start();
         <form method=post action=5.student_homepage.php>
             <p> <input type="submit" value="Home" name="Home"> </p>
         </form>
-
-        <!-- student homepage tab -->
         <form method=post action=5.student_homepage.php>
             <p align="center"> <input type="submit" value="Profile" name="profile"> </p>
         </form>
